@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObjectiveIron.Core\ObjectiveIron.Core.csproj" />
+    <ProjectReference Include="..\ObjectiveIron.Builders\ObjectiveIron.Builders.csproj" />
+    <ProjectReference Include="..\ObjectiveIron.Emitter\ObjectiveIron.Emitter.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ObjectiveIron.Builders/ObjectiveIron.Builders.csproj" />
+    <Project Path="src/ObjectiveIron.Cli/ObjectiveIron.Cli.csproj" />
+    <Project Path="src/ObjectiveIron.Core/ObjectiveIron.Core.csproj" />
+    <Project Path="src/ObjectiveIron.Emitter/ObjectiveIron.Emitter.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ObjectiveIron.Builders.Tests/ObjectiveIron.Builders.Tests.csproj" />
+    <Project Path="tests/ObjectiveIron.Core.Tests/ObjectiveIron.Core.Tests.csproj" />
+    <Project Path="tests/ObjectiveIron.Emitter.Tests/ObjectiveIron.Emitter.Tests.csproj" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples/ExampleMod/ExampleMod.csproj" />
+  </Folder>
+</Solution>
