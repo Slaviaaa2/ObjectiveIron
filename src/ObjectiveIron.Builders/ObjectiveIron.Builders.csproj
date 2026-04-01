@@ -12,8 +12,5 @@
     <ProjectReference Include="..\ObjectiveIron.Core\ObjectiveIron.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
 
 </Project>

@@ -11,4 +11,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright (c) 2026 ObjectiveIron Contributors</Copyright>
   </PropertyGroup>
+
+  <ItemGroup Condition="'$(IsPackable)' == 'true'">
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" Condition="Exists('$(MSBuildThisFileDirectory)README.md')" />
+  </ItemGroup>
 </Project>

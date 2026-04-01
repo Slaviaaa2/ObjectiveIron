@@ -8,8 +8,5 @@
     <Description>Core domain models and validators for ObjectiveIron HoI4 transpiler</Description>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
 
 </Project>
