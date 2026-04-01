@@ -200,6 +200,12 @@ C# Definition (ユーザーコード)
 - .NET 8.0 SDK
 - HoI4 (MODの動作確認用)
 
+## Disclaimer
+
+This is an unofficial, community-developed tool and is not affiliated with, endorsed by, or associated with Paradox Interactive AB. Hearts of Iron IV, Clausewitz Engine, and related trademarks are the property of Paradox Interactive AB.
+
+This tool does not contain any game assets, data files, or proprietary content from Hearts of Iron IV. It generates mod files based on user-defined C# code. Users are responsible for ensuring their mods comply with [Paradox Interactive's mod policy](https://www.paradoxinteractive.com/modding-policy).
+
 ## ライセンス
 
-MIT
+[MIT License](LICENSE)
