@@ -1,14 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <Description>Clausewitz format emitter for ObjectiveIron HoI4 transpiler</Description>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\ObjectiveIron.Core\ObjectiveIron.Core.csproj" />
     <ProjectReference Include="..\ObjectiveIron.Builders\ObjectiveIron.Builders.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>

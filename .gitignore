@@ -32,6 +32,10 @@ sample_output/
 example_output/
 **/output/
 
+## NuGet
+*.nupkg
+*.snupkg
+
 ## Claude Code
 .claude/
 

@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Authors>ObjectiveIron Contributors</Authors>
+    <Description>C# transpiler for Hearts of Iron IV mods — type-safe Fluent API to Clausewitz engine format</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Slaviaaa2/ObjectiveIron</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Slaviaaa2/ObjectiveIron</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>hoi4;hearts-of-iron;paradox;modding;clausewitz;transpiler</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright (c) 2026 ObjectiveIron Contributors</Copyright>
+  </PropertyGroup>
+</Project>
